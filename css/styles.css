@@ -1,0 +1,670 @@
+@media all and (min-width: 1221px)
+{
+html{
+    background-image: url(../images/background-terrain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+body{
+    margin:0 auto;
+    width: 1200px;
+    background: #271F1F;
+    margin-top: -21px;
+    border: 1px solid #FFFFFF;
+}
+header{
+    width: 1200px;
+    height: 280px;
+    background-image: url(../images/bandeau-foot.jpg);
+}
+
+.logo{
+    width: 240px;
+    height: 232px;  
+    float: left;
+}
+
+.reseaux{
+    float: right;
+    width: auto;
+    margin-top: 21px;
+    height: 30px;
+    padding-bottom:20px ;
+}
+
+.reseaux img{
+    width: 30px;
+    height: 30px;
+}
+
+header h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 950px;
+    height: 140px;
+    color:#FFFFFF;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+header nav{
+    width: 1200px;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #549E43;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border:1px solid honeydew;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+.menuanim {
+    font-family: 'Raleway', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .menuanim * {
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .menuanim li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 1.5em;
+    overflow: hidden;
+  }
+  .menuanim a {
+    padding: 0.3em 0;
+    color: rgb(0, 0, 0);
+    position: relative;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 0;
+    text-decoration: none;
+  }
+  .menuanim a:before,
+  .menuanim a:after {
+    position: absolute;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .menuanim a:before {
+    top: 100%;
+    display: block;
+    height: 3px;
+    width: 100%;
+    content: "";
+    background-color: #c0392b;
+  }
+  .menuanim a:after {
+    padding: 0.3em 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    content: attr(data-hover);
+    color: white;
+    white-space: nowrap;
+  }
+  .menuanim li:hover a,
+  .menuanim .current a {
+    transform: translateY(-100%);
+  }
+
+
+section{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-content: space-around;/*pour que l'aside soit à droite*/
+}
+
+
+section article .premièrecolonne{
+    width: 800px;
+    margin: 20px;
+    padding-top: 50px;
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+section article .info1{
+    width: 800px;
+    margin: auto;
+    height: auto;
+    background-color: #549E43;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    align-content: space-around;/*pour que le texte soit à droite de l'image*/
+}
+
+
+section article .info1 img{
+    margin: 10px;
+    height: 130px;
+    border-radius: 25px;
+    display: flex;
+    align-self: center;
+}
+
+
+section article .info2{
+    width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    height: auto;
+    background-color: #549E43;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    align-content: space-between;/*pour que le texte soit à droite de l'image*/
+}
+
+section article .info2 img{
+    margin: 10px;
+    height: 130px;
+    border-radius: 25px;
+    display: flex;
+    align-self: center;
+}
+
+section article .info3{
+    width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    height: auto;
+    background-color: #549E43;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    align-content: space-between;/*pour que le texte soit à droite de l'image*/
+}
+
+section article .info3 img{
+    margin: 10px;
+    height: 130px;
+    border-radius: 25px;
+    display: flex;
+    align-self: center;
+}
+
+section article .info4{
+    width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    height: auto;
+    background-color: #549E43;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    align-content: space-between;/*pour que le texte soit à droite de l'image*/
+}
+
+section article .info4 img{
+    margin: 10px;
+    margin: 10px;
+    height: 130px;
+    border-radius: 25px;
+    display: flex;
+    align-self: center;
+}
+
+section article .description a{
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #271F1F;
+}
+
+section article .description a:hover{
+    font-family: 'EB Garamond', serif;
+    text-decoration: none;
+    color:rgb(29, 29, 255);
+}
+
+section aside .deuxièmecolonne{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height:auto;
+    margin-top: 23px;
+    margin-left: 36px;/*pour que l'aside soit coller au rebord droit*/
+    padding: 10px;
+    background: #B7B7B7;
+    border: 2px solid #FFFFFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+aside h2{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+aside .video{
+    margin-bottom:0 auto;
+}
+
+aside ol li{
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+aside ol li a{
+    color: black;
+    text-decoration: none;
+}
+
+aside ol li a:hover{
+    color:rgb(209, 18, 18);
+}
+
+footer{
+    height: 75px;
+    width: 1200px;
+}
+
+footer nav{
+    width: 1200px;
+    height: 75px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+footer nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+footer nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 75px;
+    border-top: 1px solid #FFFFFF;
+    font-family: cursive;
+}
+
+footer nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover{
+    color:#549E43;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1220px)
+{
+
+    body{
+        margin:0 auto;
+        width: auto;
+        background: #271F1F;
+        margin-top: -21px;
+        border: 1px solid #FFFFFF;
+    }
+
+    header{
+    width: auto;
+    height: 210px;
+    background-image: url(../images/bandeau-foot.jpg);
+    }
+
+    header .logo{
+    width: 240px;
+    height: 161px;  
+    float: left;
+    }
+
+    .reseaux{
+        float: right;
+        width: auto;    
+        height: 30px;
+        padding-bottom:20px ;
+    }
+    
+    .reseaux img{
+        width: 30px;
+        height: 30px;
+    }
+
+    header nav
+    {
+    width: auto;
+    }
+
+    header h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: 140px;
+        color:#FFFFFF;
+        font-family: 'Berkshire Swash', cursive;
+    }
+
+    header nav{
+        width: auto;
+        height: 70px;
+        margin: auto;
+        background-color: #549E43;
+    }
+
+    header nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    header nav ul li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 240px;
+        height: 70px;
+        border: 1px solid #FFFFFF;
+        font-family: cursive;
+    }
+
+    nav ul li:hover{
+        background-color:#B7B7B7;
+        }
+    
+    nav ul li a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    nav ul li a:hover{
+        color:#549E43;
+    }
+
+    section{
+        width: auto;
+        height: auto;
+    }
+    
+    
+    section article .premièrecolonne{
+        width: auto;
+        margin: 20px;
+        padding-top: 50px;
+        display: flex;
+        align-content: space-between;
+        flex-direction: column;
+    }
+    
+    section article .info1{
+        width: auto;
+        margin: auto;
+        height: auto;
+        background-color: #549E43;
+        border: 2px solid #FFFFFF;
+        border-radius: 25px;
+        display: flex;
+        align-content: space-between;
+    }
+    
+    
+    section article .info1 img{
+        margin: 10px;
+        height: 130px;
+        border-radius: 25px;
+        display: flex;
+        align-self: center;
+    }
+    
+    
+    section article .info2{
+        width: auto;
+        margin: auto;
+        margin-top: 10px;
+        height: auto;
+        background-color: #549E43;
+        border: 2px solid #FFFFFF;
+        border-radius: 25px;
+        display: flex;
+        align-content: space-between;
+    }
+    
+    section article .info2 img{
+        margin: 10px;
+        height: 130px;
+        border-radius: 25px;
+        display: flex;
+        align-self: center;
+    }
+    
+    section article .info3{
+        width: auto;
+        margin: auto;
+        margin-top: 10px;
+        height: auto;
+        background-color: #549E43;
+        border: 2px solid #FFFFFF;
+        border-radius: 25px;
+        display: flex;
+        align-content: space-between;
+    }
+    
+    section article .info3 img{
+        margin: 10px;
+        height: 130px;
+        border-radius: 25px;
+        display: flex;
+        align-self: center;
+    }
+    
+    section article .info4{
+        width: auto;
+        margin: auto;
+        margin-top: 10px;
+        height: auto;
+        background-color: #549E43;
+        border: 2px solid #FFFFFF;
+        border-radius: 25px;
+        display: flex;
+        align-content: space-between;
+    }
+    
+    section article .info4 img{
+        margin: 10px;
+        height: 130px;
+        border-radius: 25px;
+        display: flex;
+        align-self: center;
+    }
+    
+    section article .description a{
+        font-family: 'EB Garamond', serif;
+        font-size: 18px;
+        text-decoration: none;
+        color: #271F1F;
+    }
+    
+    section article .description a:hover{
+        font-family: 'EB Garamond', serif; 
+        text-decoration: none;
+        color:rgb(29, 29, 255);
+    } 
+
+    section aside .deuxièmecolonne{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        background: #B7B7B7;
+        border: 2px solid #FFFFFF;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    aside ol li a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    aside ol li a:hover{
+        color:rgb(209, 18, 18);
+    }
+
+    aside .deuxièmecolonne h2{
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'Berkshire Swash', cursive;
+    }
+
+    footer{
+        height: 75px;
+        width: auto;
+    }
+    
+    footer nav{
+        width: auto;
+        height: 75px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    footer nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+    }
+    
+    footer nav ul li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 240px;
+        height: 75px;
+        border-top: 1px solid #FFFFFF;
+        font-family: cursive;
+    }
+    
+    footer nav ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    footer nav ul li a:hover{
+        color:#549E43;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 690px)
+{
+    body{
+        border: none;
+    }
+
+    header{    
+        height: auto;
+    }
+    
+    .logo{
+        display: none;
+    }
+    header nav{
+        height: auto;
+    }
+    
+    header nav ul{
+        display: block; 
+        width: auto;
+    }
+    
+    header nav ul li{
+        width: auto;
+    }
+
+    aside iframe{
+        width: 100%;
+    }
+
+    article .premièrecolonne{
+        width: auto;
+    }
+
+    article .info1{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    article .info2{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    article .info3{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    article .info4{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    footer nav{
+        height: auto;
+    }
+
+    footer nav ul{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+
+    footer nav ul li{
+        width: auto;
+    }
+
+}
